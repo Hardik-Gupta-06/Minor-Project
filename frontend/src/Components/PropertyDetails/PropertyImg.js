@@ -33,7 +33,7 @@ const PropertyImg = ({ images }) => {
 
       <div className='similar-photos-container'>
           <button className='similar-photos' onClick={handleShowAllPhotos}> 
-            <span class="material-symbols-outlined">
+            <span className="material-symbols-outlined">
               photo_library
             </span>
           </button>

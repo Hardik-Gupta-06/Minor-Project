@@ -31,7 +31,7 @@ const Filter = () => {
 
   return (
     <>
-        <span class="material-symbols-outlined filter" onClick={handleOpenModal}>
+        <span className="material-symbols-outlined filter" onClick={handleOpenModal}>
             tune
         </span>
         {isModalOpen && (

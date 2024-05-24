@@ -76,7 +76,7 @@ const PropertyList = () => {
                 {/* previous button */}
                 <button className='previous_btn' onClick={() => setCurrentPage((prev) => ({page: prev.page - 1}))} disabled = {currentPage.page === 1} // disabling the previous button if you are in first page
                 >
-                    <span class="material-symbols-outlined">
+                    <span className="material-symbols-outlined">
                         arrow_back_ios_new
                     </span>
 
@@ -89,7 +89,7 @@ const PropertyList = () => {
                 }
                 disabled = {properties.length < 12 || currentPage.page === lastPage}
                 >
-                    <span class="material-symbols-outlined">
+                    <span className="material-symbols-outlined">
                         arrow_forward_ios
                     </span>
                 </button>
