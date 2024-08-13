@@ -3,8 +3,8 @@ import React from "react";
 const MyAccomodation = ({ accomodation }) => {
   return (
     <>
-      {accomodation.map((accomodation) => (
-        <div className="main-container">
+      {accomodation.map((accomodation, index) => (
+        <div key={index} className="main-container">
           <div className="myaccomodation-container row">
             <div className="myaccomodation-image-container col-lg-3 col-md-3">
               <img
@@ -19,14 +19,14 @@ const MyAccomodation = ({ accomodation }) => {
               </h5>
               <div className="stay-information">
                 <span className="info">
-                  <span class="material-symbols-outlined">schedule</span>
+                  <span className="material-symbols-outlined">schedule</span>
                   CheckIn Time: {accomodation.checkInTime}
                 </span>
                 <span className="material-symbols-outlined icon">
                   arrow_forward
                 </span>
                 <span className="info">
-                  <span class="material-symbols-outlined">schedule</span>
+                  <span className="material-symbols-outlined">schedule</span>
                   CheckOut Time: {accomodation.checkOutTime}
                 </span>
               </div>

@@ -10,7 +10,7 @@
 .header img[alt="logo"] {
   object-fit: contain;
   height: 80%;
-  width: 6rem;
+  width: 5rem;
 }
 
 .search_filter {

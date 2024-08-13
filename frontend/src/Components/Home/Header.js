@@ -27,7 +27,7 @@ const Header = () => {
     <>
         <nav className='header row sticky-top'>
           <Link to='/'>
-            <img src="/assets/logo.png" alt="logo" className='logo' onClick={allproperties} />
+            <img src="/assets/SH_logo.png" alt="logo" className='logo' onClick={allproperties} />
           </Link>
             <div className='search_filter' >
                <Search /> 

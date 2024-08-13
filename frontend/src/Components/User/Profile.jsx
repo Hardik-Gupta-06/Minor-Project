@@ -20,7 +20,7 @@ const Profile = () => {
                         <div className='avatar-profile text-center mr-2'>
                             <img className='rounded-circle figure-img img-fluid' src={user.avatar.url} alt='avatar' />
                         </div>
-                        <h3> Welcome User </h3>
+                        <h3> Welcome {user.name} </h3>
                     </div>
                     <div className='userinfo'>
                         <h4> Full name </h4>
