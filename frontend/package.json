@@ -47,5 +47,5 @@
 			"last 1 safari version"
 		]
 	},
-	"proxy": "https://sharehaven.onrender.com"
+	"proxy": "http://localhost:8000"
 }

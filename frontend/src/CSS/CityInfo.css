@@ -1,0 +1,88 @@
+.booking-review {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Center content horizontally */
+	justify-content: center; /* Center content vertically */
+	width: 50%; /* Take up half of the parent's width */
+	margin: 0 auto; /* Center the container in its parent */
+	padding: 20px; /* Optional padding */
+}
+
+/* General container styling for CityInfo */
+.city-info {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Threat level styling */
+.threat-level {
+	border-left: 5px solid;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+.threat-level h3 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.threat-level ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.threat-level li {
+	font-size: 1em;
+	line-height: 1.6;
+}
+
+.threat-level a {
+	text-decoration: none;
+	color: #007bff;
+}
+
+.threat-level a:hover {
+	text-decoration: underline;
+	color: #0056b3;
+}
+
+/* Weather info styling */
+.weather-info h3 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.weather-info p {
+	font-size: 1em;
+	margin: 5px 0;
+}
+
+.weather-info img {
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.weather-info h4 {
+	margin-top: 15px;
+	font-size: 1.3em;
+	color: #333;
+}
+
+.weather-info ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.weather-info li {
+	font-size: 1em;
+	margin-bottom: 5px;
+}
