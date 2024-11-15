@@ -191,7 +191,9 @@ const CityInfo = ({ city, checkinDate, checkoutDate }) => {
 					<p>Temperature: {weather.currentWeather.temp_c}°C</p>
 					<p>Feels Like: {weather.currentWeather.feelslike_c}°C</p>
 					<h4>Forecast</h4>
-					{forecastMessage && <p>{forecastMessage}</p>}
+					{forecastMessage && (
+						<p className="forecast-message">{forecastMessage}</p>
+					)}
 					<ul>
 						{weather.forecast.forecastday &&
 						weather.forecast.forecastday.length > 0 ? (

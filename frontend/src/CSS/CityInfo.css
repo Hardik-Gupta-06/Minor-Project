@@ -63,6 +63,10 @@
 	margin: 5px 0;
 }
 
+.forecast-message {
+	color: rgb(255, 34, 34);
+}
+
 .weather-info img {
 	width: 50px;
 	height: 50px;
