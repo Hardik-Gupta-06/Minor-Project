@@ -48,7 +48,11 @@ const Payment = () => {
 
 	return (
 		<div className="row wrapper">
-			<BookingReview city={address.city} />
+			<BookingReview
+				city={address.city}
+				checkinDate={checkinDate}
+				checkoutDate={checkoutDate}
+			/>
 			<div className="col-10 col-lg-5">
 				{isAuthenticated ? (
 					<form className="shadow-lg" onSubmit={handleSubmit}>

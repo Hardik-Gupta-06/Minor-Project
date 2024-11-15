@@ -5,7 +5,7 @@ const axios = require("axios");
 const WEATHER_API_KEY = "8815e5ac8c88409a98a123523240911";
 
 async function fetchWeatherForecast(city) {
-	const url = `http://api.weatherapi.com/v1/forecast.json?key=${WEATHER_API_KEY}&q=${city}&days=5`;
+	const url = `http://api.weatherapi.com/v1/forecast.json?key=${WEATHER_API_KEY}&q=${city}&days=8`;
 	try {
 		const response = await axios.get(url);
 		return response.data;
