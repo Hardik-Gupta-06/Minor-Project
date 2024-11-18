@@ -146,7 +146,8 @@ const CityInfo = ({ city, checkinDate, checkoutDate }) => {
 		fetchCityData();
 	}, [city, checkinDate]);
 
-	if (loading) return <div>Loading city information...</div>;
+	if (loading)
+		return <div className="loading">Loading city information...</div>;
 
 	return (
 		<div className="city-info">

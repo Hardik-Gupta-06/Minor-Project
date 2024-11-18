@@ -11,6 +11,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { processPayment } from "../../Store/Payment/payment-actions";
 import "../../CSS/MyBookings.css";
 import BookingReview from "../BookingReview/BookingReview";
+import "../../CSS/CityInfo.css";
 
 const Payment = () => {
 	const stripe = useStripe();
@@ -48,11 +49,13 @@ const Payment = () => {
 
 	return (
 		<div className="row wrapper">
-			<BookingReview
-				city={address.city}
-				checkinDate={checkinDate}
-				checkoutDate={checkoutDate}
-			/>
+			<div className="booking-review">
+				<BookingReview
+					city={address.city}
+					checkinDate={checkinDate}
+					checkoutDate={checkoutDate}
+				/>
+			</div>
 			<div className="col-10 col-lg-5">
 				{isAuthenticated ? (
 					<form className="shadow-lg" onSubmit={handleSubmit}>

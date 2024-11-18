@@ -5,8 +5,8 @@ import "../../CSS/CityInfo.css";
 
 const BookingReview = ({ city, checkinDate, checkoutDate }) => {
 	return (
-		<div className="booking-review">
-			<h1>Booking Review</h1>
+		<div>
+			<h1>Destination Insights: Safety and Weather</h1>
 			<CityInfo
 				city={city}
 				checkinDate={checkinDate}
